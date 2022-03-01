@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
 import {View, Text, ScrollView, TouchableOpacity} from 'react-native';
 import styles from './styles';
-import TextBold from '../TextBold'
-
+import TextBold from '../TextBold';
+import {useNavigation} from '@react-navigation/native';
 
 const ListItem = ({item, index}) => {
   console.log('item: ', item);
   console.log('index: ', index);
+  const navigation = useNavigation();
   return (
-    <ScrollView style={styles.container}
+    <ScrollView
+      style={styles.container}
       // horizontal
     >
       <View style={styles.row}>
@@ -34,10 +36,14 @@ const ListItem = ({item, index}) => {
         </View>
         <View style={styles.column2}>
           <TextBold style={[styles.textBold]}> Actions </TextBold>
-          <TouchableOpacity style={styles.reportButton}
-          // lab_master_id
+          <TouchableOpacity
+            onPress={() => {
+              navigation.navigate('ResultDetails', {item: item});
+            }}
+            style={styles.reportButton}
+            // lab_master_id()
           >
-          <Text style={styles.whiteText}> See Report </Text>
+            <Text style={styles.whiteText}> See Report </Text>
           </TouchableOpacity>
         </View>
       </View>

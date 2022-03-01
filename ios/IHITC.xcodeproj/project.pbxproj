@@ -12,6 +12,22 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CAEF23A1A077495EA4994C2F /* Khand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAEFAE0165DB4B7C8F9C7FA5 /* Khand-Bold.ttf */; };
+		03657382B88246338A61360E /* Khand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F68666F83481D86267876 /* Khand-Light.ttf */; };
+		330182F84B00424CABFA0CAA /* Khand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA5FDDEC6F174B2F92752998 /* Khand-Medium.ttf */; };
+		3069B5A9DFB44DBC899B04A6 /* Khand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4703D10139844C299FEFDA40 /* Khand-Regular.ttf */; };
+		DD86C86B005B419886BF85B1 /* Khand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B1EBE61B64DEFA449D140 /* Khand-SemiBold.ttf */; };
+		EB0DB7D39F754D4E893F5B81 /* MountainBridge.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED32F8FAF5AA43AE9FC1EC8D /* MountainBridge.otf */; };
+		E1A7DFBD918C44E1A970D182 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AD95162F22A44FEA7F4C196 /* Gilroy-Bold.ttf */; };
+		46A63A3721664723A4E2BFDA /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA03BC9F850E4DB2B8FF3032 /* Gilroy-ExtraBold.otf */; };
+		EF90192414CD4B648D22EB0B /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E258CA42E9BC4C3C930174D0 /* Gilroy-Heavy.ttf */; };
+		158456C92D024EF6B7A04D27 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F687F5B799E4823AD690117 /* Gilroy-Light.otf */; };
+		FE6CA3BB8E824C968373968C /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAA86CCD721843EE944D403C /* Gilroy-Light.ttf */; };
+		CA43F5D270904FF399D4B466 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFB8608F83604EBFB67C4466 /* Gilroy-Medium.ttf */; };
+		2404801DEB6A4B19A0449896 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F69146D3FFBB4F9EB7A32C62 /* Gilroy-Regular.ttf */; };
+		33484A1DA4AF4677B04CE3A3 /* Jost-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64695B27BEF44EC89A96DB1A /* Jost-Bold.ttf */; };
+		1CEAE23AC3224EBA8EB800FE /* Jost-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE03D84BB90542569A04ABB5 /* Jost-Medium.ttf */; };
+		AB033B2E34DF4A32A538BDD9 /* Jost-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7B3A971A78541BDBA940547 /* Jost-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,22 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = IHITC/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = IHITC/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		AAEFAE0165DB4B7C8F9C7FA5 /* Khand-Bold.ttf */ = {isa = PBXFileReference; name = "Khand-Bold.ttf"; path = "../src/assets/fonts/Fonts/Khand-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F3F68666F83481D86267876 /* Khand-Light.ttf */ = {isa = PBXFileReference; name = "Khand-Light.ttf"; path = "../src/assets/fonts/Fonts/Khand-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA5FDDEC6F174B2F92752998 /* Khand-Medium.ttf */ = {isa = PBXFileReference; name = "Khand-Medium.ttf"; path = "../src/assets/fonts/Fonts/Khand-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4703D10139844C299FEFDA40 /* Khand-Regular.ttf */ = {isa = PBXFileReference; name = "Khand-Regular.ttf"; path = "../src/assets/fonts/Fonts/Khand-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C9B1EBE61B64DEFA449D140 /* Khand-SemiBold.ttf */ = {isa = PBXFileReference; name = "Khand-SemiBold.ttf"; path = "../src/assets/fonts/Fonts/Khand-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED32F8FAF5AA43AE9FC1EC8D /* MountainBridge.otf */ = {isa = PBXFileReference; name = "MountainBridge.otf"; path = "../src/assets/fonts/Fonts/MountainBridge.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6AD95162F22A44FEA7F4C196 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; name = "Gilroy-Bold.ttf"; path = "../src/assets/fonts/Gilroy-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA03BC9F850E4DB2B8FF3032 /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; name = "Gilroy-ExtraBold.otf"; path = "../src/assets/fonts/Gilroy-ExtraBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E258CA42E9BC4C3C930174D0 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; name = "Gilroy-Heavy.ttf"; path = "../src/assets/fonts/Gilroy-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F687F5B799E4823AD690117 /* Gilroy-Light.otf */ = {isa = PBXFileReference; name = "Gilroy-Light.otf"; path = "../src/assets/fonts/Gilroy-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CAA86CCD721843EE944D403C /* Gilroy-Light.ttf */ = {isa = PBXFileReference; name = "Gilroy-Light.ttf"; path = "../src/assets/fonts/Gilroy-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BFB8608F83604EBFB67C4466 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; name = "Gilroy-Medium.ttf"; path = "../src/assets/fonts/Gilroy-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F69146D3FFBB4F9EB7A32C62 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; name = "Gilroy-Regular.ttf"; path = "../src/assets/fonts/Gilroy-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64695B27BEF44EC89A96DB1A /* Jost-Bold.ttf */ = {isa = PBXFileReference; name = "Jost-Bold.ttf"; path = "../src/assets/fonts/Jost-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE03D84BB90542569A04ABB5 /* Jost-Medium.ttf */ = {isa = PBXFileReference; name = "Jost-Medium.ttf"; path = "../src/assets/fonts/Jost-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7B3A971A78541BDBA940547 /* Jost-Regular.ttf */ = {isa = PBXFileReference; name = "Jost-Regular.ttf"; path = "../src/assets/fonts/Jost-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +141,7 @@
 				00E356EF1AD99517003FC87E /* IHITCTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				AEE83BAB304C46499DB67DB5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +156,30 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		AEE83BAB304C46499DB67DB5 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				AAEFAE0165DB4B7C8F9C7FA5 /* Khand-Bold.ttf */,
+				3F3F68666F83481D86267876 /* Khand-Light.ttf */,
+				DA5FDDEC6F174B2F92752998 /* Khand-Medium.ttf */,
+				4703D10139844C299FEFDA40 /* Khand-Regular.ttf */,
+				2C9B1EBE61B64DEFA449D140 /* Khand-SemiBold.ttf */,
+				ED32F8FAF5AA43AE9FC1EC8D /* MountainBridge.otf */,
+				6AD95162F22A44FEA7F4C196 /* Gilroy-Bold.ttf */,
+				FA03BC9F850E4DB2B8FF3032 /* Gilroy-ExtraBold.otf */,
+				E258CA42E9BC4C3C930174D0 /* Gilroy-Heavy.ttf */,
+				9F687F5B799E4823AD690117 /* Gilroy-Light.otf */,
+				CAA86CCD721843EE944D403C /* Gilroy-Light.ttf */,
+				BFB8608F83604EBFB67C4466 /* Gilroy-Medium.ttf */,
+				F69146D3FFBB4F9EB7A32C62 /* Gilroy-Regular.ttf */,
+				64695B27BEF44EC89A96DB1A /* Jost-Bold.ttf */,
+				FE03D84BB90542569A04ABB5 /* Jost-Medium.ttf */,
+				A7B3A971A78541BDBA940547 /* Jost-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +271,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CAEF23A1A077495EA4994C2F /* Khand-Bold.ttf in Resources */,
+				03657382B88246338A61360E /* Khand-Light.ttf in Resources */,
+				330182F84B00424CABFA0CAA /* Khand-Medium.ttf in Resources */,
+				3069B5A9DFB44DBC899B04A6 /* Khand-Regular.ttf in Resources */,
+				DD86C86B005B419886BF85B1 /* Khand-SemiBold.ttf in Resources */,
+				EB0DB7D39F754D4E893F5B81 /* MountainBridge.otf in Resources */,
+				E1A7DFBD918C44E1A970D182 /* Gilroy-Bold.ttf in Resources */,
+				46A63A3721664723A4E2BFDA /* Gilroy-ExtraBold.otf in Resources */,
+				EF90192414CD4B648D22EB0B /* Gilroy-Heavy.ttf in Resources */,
+				158456C92D024EF6B7A04D27 /* Gilroy-Light.otf in Resources */,
+				FE6CA3BB8E824C968373968C /* Gilroy-Light.ttf in Resources */,
+				CA43F5D270904FF399D4B466 /* Gilroy-Medium.ttf in Resources */,
+				2404801DEB6A4B19A0449896 /* Gilroy-Regular.ttf in Resources */,
+				33484A1DA4AF4677B04CE3A3 /* Jost-Bold.ttf in Resources */,
+				1CEAE23AC3224EBA8EB800FE /* Jost-Medium.ttf in Resources */,
+				AB033B2E34DF4A32A538BDD9 /* Jost-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

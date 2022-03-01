@@ -5,11 +5,11 @@ import TextBold from '../TextBold'
 
 
 const BloodCount = ({item, index}) => {
-  console.log('item: ', item);
-  console.log('index: ', index);
+  // console.log('item: ', item);
+  // console.log('index: ', index);
   const bool = index == 0
   return (
-    <ScrollView style={styles.container}
+    <View style={styles.container}
       // horizontal
     >
       <View style={styles.row}>
@@ -26,11 +26,15 @@ const BloodCount = ({item, index}) => {
           <Text style={[styles.text, {width: 40*vw}]}> {item.test_result} </Text>
         </View>
         <View style={[styles.column2, !bool && {borderTopWidth:0}]}>
-          {bool &&<TextBold style={[styles.textBold, {width: 55*vw}]}> 	Normal Range </TextBold>}
-          <Text style={[styles.text, {width: 55*vw}]}> {item.type_name} </Text>
+          {bool &&<TextBold style={[styles.textBold, {width: 70*vw}]}> 	Normal Range </TextBold>}
+        <View>
+        <Text style={[styles.text, {width: 70*vw}]}> General: {item.ref_range_max_general} - {item.ref_range_min_general} 10^3/uL </Text>
+        <Text style={[styles.text, {width: 70*vw}]}> Male: {item.ref_range_max_male} - {item.ref_range_min_male} 10^3/uL</Text>
+        <Text style={[styles.text, {width: 70*vw}]}> Female: {item.ref_range_max_female} - {item.ref_range_min_female} 10^3/uL </Text>
+        </View>
         </View>
       </View>
-    </ScrollView>
+    </View>
   );
 };
 

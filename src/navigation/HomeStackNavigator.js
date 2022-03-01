@@ -20,7 +20,7 @@ const HomeStackNavigator = () => {
         <HomeStack.Navigator
             // screenOptions={getOptions}
             screenOptions={{ headerShown: false }}
-            initialRouteName="ResultDetails"
+            initialRouteName="ListOfTestResults"
         >
             <HomeStack.Screen
                 name='ListOfTestResults'
