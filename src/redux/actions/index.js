@@ -33,7 +33,7 @@ const login = (data, callback) => {
     try {
       const response = await api.post('login_patient_portal', data);
       console.log('response in login action: ', response);
-      dispatch({ type: types.LOGIN });
+      dispatch({ type: types.LOGIN, payload: response });
       return Promise.resolve(response);
     } catch (e) {
       dispatch({ type: types.loaderOff })

@@ -8,7 +8,7 @@ import {
 import styles from './styles';
 import React, {useEffect, useState} from 'react';
 import TextBold from '../../components/TextBold';
-import images from '../../assets/images';
+import images, { icons } from '../../assets/images';
 import TextRegular from '../../components/TextRegular';
 import BloodCount from '../../components/BloodCount';
 import {actions} from '../../redux/actions';
@@ -68,9 +68,7 @@ const ResultDetails = props => {
     <View style={styles.container}>
       <View style={styles.header}>
         <View style={styles.headingRow}>
-          <TouchableOpacity
-          onPress={() => props.navigation.pop()}
-          >
+          <TouchableOpacity onPress={() => props.navigation.pop()}>
             <Image
               source={images.icons?.backArrow}
               style={styles.backArrow}
@@ -81,6 +79,7 @@ const ResultDetails = props => {
         </View>
       </View>
       <View style={styles.mainContainer}>
+        <Image source={icons.logo} style={styles.logoImage} />
         <TextBold style={styles.headingText2}>Lab# 211220210000000001</TextBold>
         <View styles={styles.line} />
         <View style={styles.row}>

@@ -13,7 +13,7 @@ const RootStack = createStackNavigator()
 const RootStackNavigator = (props) => {
     const {loggedIn} = props
     // const loggedIn = true
-    return loggedIn?(// //<Text>Hey</Text>
+    return !loggedIn?(// //<Text>Hey</Text>
         <RootStack.Navigator
             // headerMode="none"
             screenOptions={{headerShown: false}}

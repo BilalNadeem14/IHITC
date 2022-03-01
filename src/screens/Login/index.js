@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, ScrollView, Image} from 'react-native';
 import styles from './styles';
-import images from '../../assets/images';
+import images, { icons } from '../../assets/images';
 // import { connect } from 'react-redux';
 import MainInput from '../../components/MainInput';
 import Button from '../../components/Button';
@@ -75,7 +75,7 @@ class Login extends React.Component {
           <TextBold style={styles.headingText}>IHITC</TextBold>
         </View>
         <View style={styles.imageContainer}>
-          <Image source={images.logo} style={styles.logoImage} />
+          <Image source={icons.logo} style={styles.logoImage} />
         </View>
 
         <View style={[styles.container, styles.scrollContent]}>

@@ -32,6 +32,7 @@ export default (state = INITIAL_STATE, action) => {
             }
         }
         case types.LOGIN: {
+            console.log('action.payload?.msg: ',action.payload?.msg);
             if (action.payload?.msg == 'ok') {
                 return {
                     ...state,

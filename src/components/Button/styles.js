@@ -6,7 +6,7 @@ import theme from '../../utils/units/theme';
 export default style = StyleSheet.create({
   container: {
     width: '100%',
-    backgroundColor: theme.colors.lightPurple2,
+    backgroundColor: theme.colors.primaryColor,
     height: vh * 6,
     borderRadius: vw * 1.5,
     justifyContent: 'center',

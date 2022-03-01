@@ -9,14 +9,20 @@ import {
 } from 'react-native';
 import { useDispatch } from 'react-redux';
 import images from '../../assets/images';
+import Button from '../../components/Button';
 import ListItem from '../../components/ListItem';
 import TextBold from '../../components/TextBold';
 import { actions } from '../../redux/actions';
+import vh from '../../utils/units/vh';
+import vw from '../../utils/units/vw';
 import styles from './styles';
 
 const Func = props => {
   const [results, setResults] = useState([])
   const dispatch = useDispatch()
+  const logout = async () => {
+    await dispatch(actions.logout())
+  }
   const apiCall = async () => {
     const data = {
       token: 'aY9d3eR',
@@ -61,9 +67,15 @@ const Func = props => {
           <FlatList
             data={results}
             renderItem={({item, index}) => <ListItem item={item} index={index} />}
+            ListFooterComponent={() => <Button
+              style={{width: 50*vw, marginTop: 2*vh}}
+              title={'Logout'}
+              onPress={() => logout()}
+              />}
           />
         </ScrollView>
       </View>
+      
     </View>
   );
 };

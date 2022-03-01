@@ -40,6 +40,11 @@ const styles = StyleSheet.create({
         fontSize: 2.5 * vh,
         marginVertical: 1*vh
     },
+    logoImage: {
+        height: 10 * vh, //20
+        width: 10 * vh, //20
+        resizeMode: 'contain'
+    },
     mainContainer:{
         marginHorizontal: 5*vw,
         paddingTop: 2*vh,

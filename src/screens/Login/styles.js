@@ -50,7 +50,7 @@ export default StyleSheet.create({
         paddingTop: 1 * vh
     },
     btnLabel: {
-        color: theme.colors.primaryColor
+        color: theme.colors.white
     },
     btn: {
         width: 40 * vw,

@@ -7,7 +7,7 @@ module.exports = {
     // },
     icons: {
         // tutorialImg: require('./icons/tutorialImg.png'),
-        // logo: require('./icons/logo.png'),
+        logo: require('./icons/logo.png'),
         // arrow: require('./icons/arrow.png'),
         // homeHeader: require('./icons/homeHeader.png'),
         // searchGray: require('./icons/searchGray.png'),
