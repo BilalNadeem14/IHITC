@@ -29,9 +29,10 @@ const ResultDetails = props => {
   });
   const dispatch = useDispatch();
   const apiCall = async () => {
+    console.log('props.route.params: ', props.route.params?.item?.lab_master_id);
     const data = {
       token: 'aY9d3eR',
-      lab_master_id: 217,
+      lab_master_id: props.route.params?.item?.lab_master_id,
       patient_id: 70,
     };
     try {
@@ -80,7 +81,7 @@ const ResultDetails = props => {
       </View>
       <View style={styles.mainContainer}>
         <Image source={icons.logo} style={styles.logoImage} />
-        <TextBold style={styles.headingText2}>Lab# 211220210000000001</TextBold>
+        <TextBold style={styles.headingText2}>Lab# {state.results?.[0]?.lab_number}</TextBold>
         <View styles={styles.line} />
         <View style={styles.row}>
           <View //column1

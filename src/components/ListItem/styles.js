@@ -1,12 +1,13 @@
 import {StyleSheet} from 'react-native';
 import theme from '../../utils/units/theme';
 import vh from '../../utils/units/vh';
+import vw from '../../utils/units/vw';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     // backgroundColor: 'blue',
-    marginVertical: 1 * vh,
+    // marginVertical: 1 * vh,
   },
   row: {
     flexDirection: 'row',
@@ -19,9 +20,35 @@ const styles = StyleSheet.create({
     // flex: 1,
     color: 'black'
   },
+  columnA: {
+      borderWidth: 1,
+      borderRightWidth: 0,
+      width: 11*vw
+  },
+  columnB: {
+      borderWidth: 1,
+      borderRightWidth: 0,
+      width: 28*vw
+  },
+  columnC: {
+      borderWidth: 1,
+      borderRightWidth: 0,
+      width: 32*vw
+  },
+  columnD: {
+      borderWidth: 1,
+      borderRightWidth: 0,
+      width: 27*vw
+  },
+  columnE: {
+      borderWidth: 1,
+      borderRightWidth: 0,
+      width: 38*vw
+  },
   column: {
       borderWidth: 1,
-      borderRightWidth: 0
+      borderRightWidth: 0,
+      minWidth: 11*vw
   },
   column2: {
       borderWidth: 1,
